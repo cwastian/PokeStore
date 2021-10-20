@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 10%;
+}
+
+.topnav {
+    display: flex;
+    background: rgb(0, 212, 255);
+    background: linear-gradient(270deg, rgba(148, 243, 255) 50%, rgba(255, 255, 255, 1) 100%);
+    padding: 5px;
+    column-gap: 24%;
+}
+
+.topnav a {
+    margin-top: 2%;
+    justify-content: flex-start;
+    font-size: 60px;
+    color: rgb(255, 203, 5);
+    text-shadow: 4px 4px rgb(42, 117, 187), 5px 5px rgb(60, 90, 166);
+    letter-spacing: 3px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.topText {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.search {
+    background: rgb(0, 212, 255);
+    background: linear-gradient(90deg, rgba(148, 243, 255) 50%, rgba(255, 255, 255, 1) 100%);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.searchBar {
+    padding: 15px;
+    font-size: 17px;
+}
+
+.btnGo {
+    padding: 16px;
+    font-size: 16px;
+    background-image: url("img/pokeball.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pokemon-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    column-gap: 75px;
+    row-gap: 25px;
+}
+
+.pokemon-block, .pokemon-block-back {
+    justify-content: center;
+    border-radius: 15px;
+    padding: 40px;
+    background-color: white;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+}
+
+.pokemon-block:hover {
+    border-radius: 20px;
+    box-shadow: 0 3px 15px rgba(255, 203, 5);
+}
+
+.price {
+    margin-top: 5px;
+    font-size: smaller;
+    font-style: italic;
+}
+
+.name {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.btnAdd {
+    display: flex;
+    margin-top: 25px;
+    background-color: rgb(252, 242, 200);
+    padding: 2px 2px;
+    border-radius: 5px;
+    align-content: center;
+    justify-content: center;
+}
