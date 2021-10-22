@@ -40,7 +40,7 @@ function createPokemon(pokemon) {
     price.textContent = ('Price: $9.999');
 
     const btnAdd = document.createElement('a');
-    btnAdd.setAttribute('href',"httep://www.index.html");
+    btnAdd.setAttribute('href',"http://www.index.html");
     btnAdd.setAttribute('onclick',function(){alert('Got it!');})
     btnAdd.classList.add('btnAdd');
     btnAdd.textContent=('Catch!');
